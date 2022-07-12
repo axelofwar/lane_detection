@@ -8,9 +8,9 @@ The path planning and localization algorithms that I contributed to are propriet
 The outdated_IP_code is written in tandem with Philip Renn and Dr. Mark Paulik
 
 **FOR THOSE FAMILIAR WITH ROS**
-> catkin_make to build. 
-> roslaunch lane_detection OR
-> roscore
-> rosrun lane_detect.cpp
-> rosrun lane_find.cpp
+_catkin_make_ to build. 
+_roslaunch_ lane_detection OR
+_roscore_
+_rosrun lane_detect.cpp_
+_osrun lane_find.cpp_
 etc.
