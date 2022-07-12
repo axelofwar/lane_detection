@@ -6,3 +6,11 @@ lane_detection_ws.zip is the zip file including all output files as well as cali
 The path planning and localization algorithms that I contributed to are proprietary to the UDM IGVC group, and thus are not included. 
 
 The outdated_IP_code is written in tandem with Philip Renn and Dr. Mark Paulik
+
+**FOR THOSE FAMILIAR WITH ROS**
+> catkin_make to build. 
+> roslaunch lane_detection OR
+> roscore
+> rosrun lane_detect.cpp
+> rosrun lane_find.cpp
+etc.
