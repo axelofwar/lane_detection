@@ -8,12 +8,33 @@ The path planning and localization algorithms that I contributed to are propriet
 The outdated_IP_code is written in tandem with Philip Renn and Dr. Mark Paulik
 
 **FOR THOSE FAMILIAR WITH ROS**
-'''
+```
+catkin_create_pkg 
+```
+to make a new ROS package with catkin dependencies. Move the relevant packages into the src, launch, and include folders.
+```
+rosdep install
+```
+this will install all missing and necessary dependencies if files were properly added to src, include, and launch folders
+
+```
+roscore
+```
+this will start the ros network (assuming it's installed)
+```
 catkin_make
-''' to build. 
-'''roslaunch lane_detection'''
+```
+this wil build the package. make sure a USB camera is plugged in before running launch file OR run indiviudally. 
+```
+roslaunch lane_detection.launch
+```
 OR
-'roscore'
-_rosrun lane_detect.cpp_
-_osrun lane_find.cpp_
-etc.
+```
+rosrun lane_detect.cpp
+```
+```
+rosrun lane_find.cpp
+``````
+rosrun etc.cpp
+```
+Use these rosrun finctions in order to run the files within. 
