@@ -5,7 +5,7 @@ lane_detection_ws.zip is the zip file including all output files as well as cali
 
 The path planning and localization algorithms that I contributed to are proprietary to the UDM IGVC group, and thus are not included. 
 
-The outdated_IP_code is written in tandem with Philip Renn and Dr. Mark Paulik
+The outdated_IP_code is written in tandem with Philip Renn and Dr. Mark Paulik. Other files are completely written by me and part of a vehicle upgrade (not all of which are mine to share).
 
 **FOR THOSE FAMILIAR WITH ROS**
 ```
@@ -38,4 +38,4 @@ rosrun lane_find.cpp
 ```
 rosrun etc.cpp
 ```
-Use these rosrun finctions in order to run the files within. 
+Use these rosrun finctions in order to run the files within. Once I clean up the directory from all the integration files that were proprietary to the other parts of the project a cleaner push to git can be made. 
